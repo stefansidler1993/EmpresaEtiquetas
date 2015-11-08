@@ -1,0 +1,57 @@
+/* Global properties ======================================================== */
+html, body {width:100%; padding:0; margin:0;}
+
+body { 	 
+	font: 14px/24px Tahoma, Geneva, sans-serif;
+	color:#636f6f;
+	min-width:1264px;
+	background: #000;
+}
+
+.main {width:940px; margin:0 auto;}
+/********************************menu***************************************/
+a {text-decoration:none; cursor:pointer;text-decoration:none; }
+a:hover {text-decoration:none;}
+
+.button {background:#ef6f53; color:#fff; font-size:18px; line-height:24px; padding:4px 12px 10px 12px; display:inline-block;}
+.button:hover {background:#636f6f; }
+
+h2 { font-size:26px; line-height:32px; color:#fff; font-weight:normal;}
+h3 { font-size:18px; line-height:24px; color:#fff; font-weight:normal;}
+
+/******************************************************************/
+.left-1 { margin-left:12px;}
+.left-2 { margin-left:24px;}
+
+.p2 {padding-bottom:17px;}
+.p4 {padding-bottom:14px;}
+
+/*********************************header*************************************/
+h1 {display:inline-block; z-index:100; float:left; }
+.search-icons {overflow:hidden; float:right; padding:25px 0px 0px 0;}
+.search-icons>div {float:right; overflow:hidden;}
+
+nav { width:940px; margin:0 auto; z-index:100; padding:5px 0px 11px 0px; }
+ul.menu {display:inline-block;}
+ul.menu li {float:left; line-height:24px; margin:0px 28px 0px 4px; }
+ul.menu li a {font-size:18px; line-height:24px; color:#fff; text-transform:uppercase; display:inline-block; letter-spacing:-1px; }
+ul.menu li a:hover , ul.menu li.current a { color:#ef6f53; }
+
+/*********************************content*************************************/
+#content {width:960px; margin:0 auto; padding:0px 0px 55px 0; position:relative;}
+
+/****************************footer************************/
+footer { width:940px; margin:0 auto; position:relative; overflow:hidden; padding:37px 0 40px 0; 0 0 repeat-x;} 
+footer h3 {padding-bottom:15px;}
+.footer-col-1 {float:left; width:190px; padding:0 20px 0 0px;}
+.footer-col-4 {float:left; width:276px; padding:3px 0px 0 0px;}
+
+/**********************form**********************/
+
+#form { margin: 17px 0 0px 0px; width:607px; }
+#form input {border:#1a1a1a 1px solid; background:#1a1a1a; font-size:14px; font-family: Tahoma, Geneva, sans-serif; color:#fff; padding:3px 10px 3px 10px;outline: medium none;width: 511px; height:17px; float:left;}
+#form textarea {border:#1a1a1a 1px solid; background:#1a1a1a; font-size:14px; font-family: Tahoma, Geneva, sans-serif; color:#fff; height: 249px;outline: medium none;overflow: auto; padding: 4px 0px 0px 10px;width:521px;resize:none;margin:0px 0 0 0;float:left;}
+#form label {position:relative;display: block; min-height:30px; overflow:hidden;}
+.btns {text-align:right; overflow:hidden; width:607px; }
+.btns a {display:inline-block; margin:20px 0px 0 10px; width:88px; text-align:center;}
+#form label strong {float:left; display:block; padding-top:3px; line-height:15px; width:74px; font-weight:normal; white-space:nowrap;} 
